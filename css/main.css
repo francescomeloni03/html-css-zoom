@@ -54,7 +54,9 @@ h5:last-child{
 
 /* Main */
 
-
+main{
+    background-color: black;
+}
 
 
 
@@ -62,6 +64,8 @@ h5:last-child{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;
+
 }
 
 
@@ -72,5 +76,32 @@ main img{
 
 main i{
     position: absolute;
+    background-color: rgb(168,168,168,0.5);
+    color: white;
 }
 
+
+.boximg1{
+
+}
+
+
+
+.position{
+    left:0 ;
+    top: 77px;
+
+}
+
+
+main div{
+    position: relative;
+}
+
+
+
+
+i > h6{
+    display: inline-block;
+    margin-left: 10px;
+}
