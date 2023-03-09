@@ -48,3 +48,29 @@ h5:last-child{
 
 
 
+
+
+
+
+/* Main */
+
+
+
+
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+main img{
+    width: 140px;
+    margin-right: 5px;
+}
+
+main i{
+    position: absolute;
+}
+
